@@ -1,0 +1,80 @@
+html,body{
+    margin:0%;
+    padding:0%;
+    width: 20vw;
+    height: 100vh;
+}
+
+/* Estilização do menu */
+
+.menu{
+    position: fixed;
+    left: 0px;
+    top: 0;
+    width: 20vw;
+    height: 100vh;
+    background-color: #ececec;
+    box-shadow: 0 0 20px gray;
+}
+
+.menu h1{
+    color:rgb(43, 185, 43);
+    font-family: candara;
+    font-size: 50px;
+    width: 150px;
+    display: flex;
+    margin-left: 22%;
+}
+
+/* Estilização do nav */
+
+nav{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Trebuchet MS';    
+    font-size: 25px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilização do summary */
+
+summary{
+    font-family: 'Trebuchet MS';
+    font-size: 17px;
+}
+
+details a{
+    font-family: 'Trebuchet MS';
+    font-size: 17px;
+    margin-left: 5%;
+}
+
+/* Estilização do sair */
+
+.sair{
+    margin-left: 30%;
+    margin-top: 10%;
+    width: 35%;
+    height: 7%;
+    background-color: rgb(220, 50, 50) ;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 5px black;
+}
+
+.sair a{
+    text-decoration: none;
+    font-family: 'Trebuchet MS';
+    color: black;
+    font-size: 21px;
+}

@@ -1,0 +1,44 @@
+/*Estilização página*/
+
+.pagina{
+    width: 78.7vw;
+    height: 100vh;
+    position: absolute;
+    top:0;
+    right:0;
+}
+
+.pagina header{
+    font-family: arial;
+    margin-left: 45%;
+    font-size: 3vh;
+}
+
+/* Tabela */
+
+.relatorio {
+    font-family: candara;
+    display: flex;
+    justify-content: center;
+}
+
+.relatorio td{
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    font-size: 2.5vh;
+}
+
+table td{
+    border-bottom: 2PX   #EEE solid;
+}
+
+.relatorio th{
+    height: 40px;
+    text-align: center;
+    font-size: 3vh;
+}
+
+table th{
+    border-bottom: 2px #EEE solid;
+}

@@ -1,0 +1,155 @@
+/*Estilização página*/
+
+.pagina{
+    width: 78.7vw;
+    height: 100vh;
+    position: absolute;
+    top:0;
+    right:0;
+}
+
+/*
+.coisas{
+    background-color: #cecece;
+}
+*/
+
+.pagina header{
+    font-family: arial;
+}
+
+.pagina form{
+    width: 90%;
+    padding: 10px;
+    height: 40%;
+}
+
+.pagina div{
+    width: 90%;
+    height: 15%;
+    padding: 10px;
+}
+
+.pagina .controles{
+    width: 98.1%;
+    height: 10%;
+}
+
+/*Estilização form*/
+
+.linha{
+    display: flex;
+    flex-direction: column;
+}
+
+.pagina .inputs{
+    width: 98%;
+    height: 25%;
+    padding: 1%;
+}
+
+.inputs input{
+    width: 200px;
+    padding: 5px;
+    border: 1px #cdcdcd solid;
+    border-radius: 5px;
+    height: 35px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+.inputs select{
+    width: 27vh;
+    height: 4.5vh;
+    border-radius: 5px;
+}
+
+/*Estilização botões do controle*/
+
+.controles{
+    width: 200px;
+    height: 35px;
+}
+
+.tipo{
+    width: 200px;
+    height: 50px;
+}
+
+.controles button{
+    width: 150px;
+    padding: 10px;
+    color:white;
+    border: 0;
+    border-radius: 5px;
+}
+
+.salvar{
+    background-color: green;
+    transition-duration: 0.2s;
+}
+
+.salvar:hover{
+    background-color: darkgreen;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+.cancelar{
+    background-color: red;
+    transition-duration: 0.2s;
+}
+
+.cancelar:hover{
+    background-color: rgb(211, 0, 0);
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+/*Estilização do relatório*/
+
+.relatorio{
+    width: 100px;
+    height: 30%;
+}
+
+.pagina div{
+    height: 25%;
+}
+
+.relatorio {
+    font-family: candara;
+}
+
+.relatorio td{
+    width: 150px;
+    height: 50px;
+    text-align: center;
+}
+
+table td{
+    border-bottom: 2PX   #EEE solid;
+}
+
+.relatorio th{
+    height: 40px;
+    text-align: center;
+}
+
+table th{
+    border-bottom: 2px #EEE solid;
+}
+
+td button{
+    background-color: red;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+}
+
+td button:hover{
+    background-color: rgb(218, 10, 10);
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
